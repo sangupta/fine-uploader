@@ -523,7 +523,7 @@ Remember, when using the "core" build, you will need to build your own UI and up
     <script>
         // Some options to pass to the uploader are discussed on the next page
         var uploader = new qq.s3.FineUploader({
-            element: getElementById("uploader")
+            element: document.getElementById("uploader")
         })
     </script>
 </body>
